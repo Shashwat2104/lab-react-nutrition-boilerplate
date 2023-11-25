@@ -1,0 +1,43 @@
+
+.box {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.food-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.food-container img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.food-container div {
+  flex: 1;
+}
+
+.total-calories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 5px;
+  margin-right: 10px;
+}
